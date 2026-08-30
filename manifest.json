@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "somnius.serpantinum-media",
+  "name": "Serpantinum Media",
+  "version": "0.1.0",
+  "author": "Somnius contributors",
+  "description": "Animated native audio and MPRIS controls for Omarchy",
+  "license": "MIT",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Serpantinum Media",
+    "description": "Volume, output selection, and active media controls",
+    "category": "Audio",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
